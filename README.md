@@ -41,7 +41,7 @@ added to the .eslintrc file
 },
 ```
 
-You can also use or extend our Prettier config:
+You can also use or extend the Prettier config:
 
 .prettierrc.js:
 ```javascript
@@ -50,6 +50,4 @@ module.exports = require('eslint-plugin-zacanger/prettier')
 module.exports = require('eslint-plugin-zacanger/prettier-ts')
 ```
 
-## License
-
-[MIT](./LICENSE.md)
+[License](./LICENSE.md)
