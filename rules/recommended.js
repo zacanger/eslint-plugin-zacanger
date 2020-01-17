@@ -148,6 +148,23 @@ const baseRules = {
   'valid-typeof': 2,
   'wrap-iife': [2, 'any'],
   yoda: [2, 'never'],
+  'fp/no-arguments': 2,
+  'fp/no-class': 2,
+  'fp/no-delete': 2,
+  'fp/no-events': 2,
+  'fp/no-get-set': 2,
+  'fp/no-let': 2,
+  'fp/no-loops': 2,
+  'fp/no-mutating-assign': 2,
+  'fp/no-mutating-methods': 2,
+  'fp/no-mutation': 2,
+  'fp/no-nil': 2,
+  'fp/no-proxy': 2,
+  'fp/no-rest-parameters': 0,
+  'fp/no-this': 2,
+  'fp/no-throw': 0,
+  'fp/no-unused-expression': 2,
+  'fp/no-valueof-field': 2,
 }
 
 module.exports = { baseRules }

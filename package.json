@@ -1,7 +1,7 @@
 {
-  "name": "eslint-plugin-jane",
-  "description": "Jane's ESLint plugin and configurations",
-  "version": "7.0.2",
+  "name": "eslint-plugin-zacanger",
+  "description": "zacanger's ESLint plugin and configurations",
+  "version": "0.0.1",
   "author": {
     "email": "zac@zacanger.com",
     "name": "Zac Anger",
@@ -23,12 +23,12 @@
     "test:lint": "eslint -c .eslintrc.json *.js rules",
     "test:test": "node test"
   },
-  "homepage": "https://github.com/jane/eslint-plugin-jane#readme",
+  "homepage": "https://github.com/zacanger/eslint-plugin-zacanger#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jane/eslint-plugin-jane.git"
+    "url": "https://github.com/zacanger/eslint-plugin-zacanger.git"
   },
-  "bugs": "https://github.com/jane/eslint-plugin-jane/issues",
+  "bugs": "https://github.com/zacanger/eslint-plugin-zacanger/issues",
   "keywords": [
     "config",
     "eslint",
@@ -36,9 +36,9 @@
     "eslint-plugin",
     "eslintconfig",
     "eslintplugin",
-    "jane",
     "lint",
-    "plugin"
+    "plugin",
+    "zacanger"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.16.0",
@@ -46,6 +46,7 @@
     "babel-eslint": "10.0.3",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-babel": "5.3.0",
+    "eslint-plugin-fp": "2.3.0",
     "eslint-plugin-import": "2.20.0",
     "eslint-plugin-jest": "23.6.0",
     "eslint-plugin-jsx-a11y": "6.2.3",

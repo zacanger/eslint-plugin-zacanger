@@ -19,20 +19,13 @@ const defaultParserOptions = {
   sourceType: 'module',
 }
 
-const defaultPlugins = ['babel', 'unicorn', 'promise', 'import']
+const defaultPlugins = ['babel', 'unicorn', 'promise', 'import', 'fp']
 
 const plugin = {
-  environments: {
-    browser: {
-      globals: {
-        _jane: false,
-      },
-    },
-  },
   configs: {
     recommended: {
       plugins: defaultPlugins,
-      extends: ['plugin:import/warnings'],
+      extends: ['plugin:import/warnings', 'plugin:fp/recommended'],
       rules: baseRules,
     },
     react: {
@@ -86,10 +79,12 @@ const plugin = {
   },
 }
 
+// eslint-disable-next-line fp/no-unused-expression, fp/no-nil
 Object.keys(plugin.configs).forEach((k) => {
   const c = plugin.configs[k]
   c.parser = c.parser || 'babel-eslint'
   c.parserOptions = c.parserOptions || defaultParserOptions
+  // eslint-disable-next-line fp/no-mutating-assign
   c.env = Object.assign(c.env || {}, { es6: true, commonjs: true })
 })
 
