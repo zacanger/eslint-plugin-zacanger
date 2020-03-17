@@ -1,5 +1,6 @@
 const typescriptRules = {
   '@typescript-eslint/adjacent-overload-signatures': 2,
+  '@typescript-eslint/array-type': [2, 'generic'],
   '@typescript-eslint/await-thenable': 2,
   '@typescript-eslint/ban-ts-ignore': 0,
   '@typescript-eslint/ban-types': [
@@ -7,10 +8,7 @@ const typescriptRules = {
     {
       types: {
         Object: 'Use {} instead',
-        String: {
-          message: 'Use string instead',
-          fixWith: 'string',
-        },
+        String: { message: 'Use string instead', fixWith: 'string' },
       },
     },
   ],
