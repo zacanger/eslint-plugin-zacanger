@@ -2,7 +2,7 @@ const typescriptRules = {
   '@typescript-eslint/adjacent-overload-signatures': 2,
   '@typescript-eslint/array-type': [2, { default: 'generic' }],
   '@typescript-eslint/await-thenable': 2,
-  '@typescript-eslint/ban-ts-ignore': 0,
+  '@typescript-eslint/ban-ts-comment': 0,
   '@typescript-eslint/ban-types': [
     2,
     {
@@ -12,12 +12,10 @@ const typescriptRules = {
       },
     },
   ],
-  '@typescript-eslint/camelcase': [2, { properties: 'never' }],
   '@typescript-eslint/class-name-casing': 2,
   '@typescript-eslint/explicit-function-return-type': 0,
   '@typescript-eslint/explicit-member-accessibility': 0,
   '@typescript-eslint/indent': 0,
-  '@typescript-eslint/interface-name-prefix': 2,
   '@typescript-eslint/member-delimiter-style': [
     2,
     {
