@@ -12,7 +12,6 @@ const typescriptRules = {
       },
     },
   ],
-  '@typescript-eslint/class-name-casing': 2,
   '@typescript-eslint/explicit-function-return-type': 0,
   '@typescript-eslint/explicit-member-accessibility': 0,
   '@typescript-eslint/indent': 0,
