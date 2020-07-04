@@ -14,6 +14,7 @@ const typescriptRules = {
   ],
   '@typescript-eslint/explicit-function-return-type': 0,
   '@typescript-eslint/explicit-member-accessibility': 0,
+  '@typescript-eslint/explicit-module-boundary-types': 0,
   '@typescript-eslint/indent': 0,
   '@typescript-eslint/member-delimiter-style': [
     2,
