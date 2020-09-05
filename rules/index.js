@@ -15,7 +15,7 @@ const prettierTsRules = {
 }
 
 const defaultParserOptions = {
-  ecmaVersion: 9,
+  ecmaVersion: 2021,
   sourceType: 'module',
 }
 
