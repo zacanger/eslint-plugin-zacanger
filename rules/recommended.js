@@ -158,6 +158,7 @@ const baseRules = {
   'unicorn/no-zero-fractions': 2,
   'unicorn/numeric-separators-style': 2,
   'unicorn/prefer-array-find': 2,
+  'unicorn/prefer-date-now': 2,
   'unicorn/prefer-flat-map': 2,
   'unicorn/prefer-includes': 2,
   'unicorn/prefer-optional-catch-binding': 2,
